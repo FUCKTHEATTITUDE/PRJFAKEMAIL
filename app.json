@@ -11,31 +11,31 @@
     "env": {
         "API_ID": {
             "description": "Get from my.telegram.org/apps",
-            "required": true
+            "required": "14782914"
         },
         "API_HASH": {
             "description": "Get from my.telegram.org/apps",
-            "required": true
+            "required": "3aa2fabe1074632cf6e2b01da083a2c6"
         },
         "BOT_TOKEN": {
             "description": "get from @BotFather",
-            "required": true
+            "required": "5165959972:AAEXWdylwty0pVDz6X_8hZw1NL8EqTfNByk"
         },
         "DATABASE": {
             "description": "get from mongo",
-            "required": true
+            "required": "mongodb+srv://Thambi05:Thambi0515@cluster0.joxczsn.mongodb.net/Cluster0?retryWrites=true&w=majority"
         },
         "CHANNEL_ID": {
             "description": "frwd channel msg to @szrosebot and reply with id cmd",
-            "required": true
+            "required": "-1001522714210"
         },
         "CHANNEL": {
             "description": "channel username without @",
-            "required": true
+            "required": "alan_walker_share"
         },
         "OWNER": {
             "description": "owner id get it from @szrosebot send /id cmd",
-            "required": true
+            "required": "1930954213"
         }
     },
     "formation": {
