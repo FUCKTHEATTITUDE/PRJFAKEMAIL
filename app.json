@@ -23,7 +23,7 @@
         },
         "DATABASE": {
             "description": "get from mongo",
-            "required": "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+            "required": "mongodb+srv://Alan:<password>@cluster0.pfofb.mongodb.net/?retryWrites=true&w=majority"
         },
         "CHANNEL_ID": {
             "description": "frwd channel msg to @szrosebot and reply with id cmd",
