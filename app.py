@@ -46,14 +46,14 @@ On this bot you can create a temporary (disposable) email in a second, that self
 Send /new to set-up your MailBox! """
 start_button = InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("Support Group", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton("News Channel", url="https://t.me/szteambots")
+                    InlineKeyboardButton("Support ", url="https://t.me/alpha_romeo_06"),
+                    InlineKeyboardButton("devloper", url="https://t.me/alpha_romeo_06")
             ]])
 fsub_text = """
 **❗️ ATTENTION**
 
 You see this message because you are not subscribed to the channel:
-@szteambots
+@alpha_romeo_06
 
 It is important that you are up to date with the latest updates and aware of the brand new functionality."""
 
@@ -87,7 +87,7 @@ API3='https://www.1secmail.com/api/v1/?action=readMessage&login='
 #********************************************************************************
 
 create = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("SZ team bots 🇱🇰", url="https://t.me/szteambots")]])
+            [[InlineKeyboardButton("devloper contact", url="https://t.me/alpha_romeo_06")]])
 
 #********************************************************************************
 @app.on_message(filters.command("new"))
@@ -105,7 +105,7 @@ async def fakemailgen(_, message: Message):
 **📬Done,Your Email Address Created!**
 📧 **Email** : `{email}@{domain}`
 📨 **Mail BOX** : `empty`
-**Powered by** : @szteambots """,
+**Powered by** : @alpha_romeo_06 """,
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔰Update Mail Box🔰", callback_data = f"mailbox |{email}|{domain}")]]))
     pi = await mes.pin(disable_notification=True, both_sides=True)
     await m.delete()
@@ -145,7 +145,7 @@ async def mail_box(_, query : CallbackQuery):
 **📬Done,Your Email Address Created!**
 📧 **Email** : `{smail}`
 📨 **Mail BOX** : ✅
-**Powered by** : @szteambots""",
+**Powered by** : @alpha_romeo_06""",
 reply_markup = mbutton
 )   
         except bad_request_400.MessageNotModified as e:
@@ -289,13 +289,13 @@ async def ads_message(_, message):
 
 Want to promote anything ? 
 
-Rose Bot is here with your basic needs. We work in around 2.5 thousand chats with thousand of userbase. One promotional broadcast reaches to thousands of peoples. 
+Rose Bot is here with your basic needs. We work in around 100 thousand chats with thousand of userbase. One promotional broadcast reaches to thousands of peoples. 
 
 Want to promote your online business ? Want to get people engagement? We are here!
 
 Promote whatever you want at lowest and affordable prices.
 
-https://telega.io/catalog_bots/szrosebot/card
+https://t.me/alpha_romeo_06
 
 🔥Your broadcast will reach group also so minimum 50k users see your message.
 """)
