@@ -6,7 +6,7 @@
 import os
 from motor.motor_asyncio import AsyncIOMotorClient
 
-DATABASE = os.environ["mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"]
+DATABASE = os.environ["DATABASE"]
 
 mongo_client = AsyncIOMotorClient(DATABASE)
 db = mongo_client.users
